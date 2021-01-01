@@ -1,5 +1,5 @@
 # 3-Legged-OAuth-WorkFlow
-In order to most easily replicate this code, I recommend using Visual Studio Code as a code editor. If you have any questions, I will also then be able to answer them more easily.
+In order to most easily replicate this code, I recommend using Visual Studio Code as a code editor. If you have any questions, I will also then be able to answer them more easily. Also, I made this code on a Macbook Pro.
 
 ## Step 1: Create a Virtual Environment
 Creating a Virtual Environment in Visual Studio Code
@@ -45,5 +45,5 @@ Variables can be pulled from this file by calling these functions:
 			ACCESS_SECRET = oauth_token_secret(data)
 
 We can now use the HerzlBot Twitter application.
-Note that the test_tweet.py file is for testing if the API is connected properly.
+Note that the test_tweet.py file is for testing if the API is connected properly. If you run this file, your app should Tweet out a "Shalom."
 This file uses the tweepy module to Tweet out a sample Tweet.
