@@ -2,10 +2,8 @@
 
 
 ## Step 1: Create a Virtual Environment
-
-    Creating a Virtual Environment in Visual Studio Code
-
-    Lets say that the name of the virtual environment that you want to create is:
+Creating a Virtual Environment in Visual Studio Code
+Lets say that the name of the virtual environment that you want to create is:
         herzlbot-env
 
     1. Create the virtual environment by opening the folder where you want the virtual environment in the terminal. 
@@ -23,19 +21,17 @@
 
 
 ## Step 2: Install the Packages in the Virtual Environment
-    
-    Run this command in the terminal in the virtual environment:
+Run this command in the terminal in the virtual environment:
         pip install -r requirements.txt
 
 
 ## Step 3: Run the Authentication File
+The authentication file only needs to be run once.
+Follow the command prompt.
+This file when run will store all the needed tokens in the confg.yaml file.
+Variables can be pulled from this file by calling these functions:
 
-    The authentication file only needs to be run once.
-    Follow the command prompt.
-    This file when run will store all the needed tokens in the confg.yaml file.
-    Variables can be pulled from this file by calling these functions:
-
-	from authentication import process_yaml, app_key, app_secret, oauth_token, oauth_token_secret
+from authentication import process_yaml, app_key, app_secret, oauth_token, oauth_token_secret
 
 		data =  process_yaml()
 		CONSUMER_KEY = app_key(data)
