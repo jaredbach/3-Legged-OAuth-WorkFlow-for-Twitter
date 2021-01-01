@@ -1,5 +1,9 @@
 # 3-Legged-OAuth-WorkFlow
-In order to most easily replicate this code, I recommend using Visual Studio Code as a code editor. If you have any questions, I will also then be able to answer them more easily. Also, I made this code on a Macbook Pro.
+If you are trying to create a Twitter bot, and your Twitter developer account is different from the account you are trying to run your bot on, this Python code should help you.
+
+I recommend that you run this code in Visual Studio Code and that you also set up a virtual environment. In the README.md file, I have instructions on how to do this in your terminal. You also need to have a Twitter developer account before running this code. You will need to put your app_secret and app_key in the YAML file in this repo before runnning this code.
+
+This code is part of a project I have coined the Herzl Bot Project. 
 
 ## Step 1: Create a Virtual Environment
 Creating a Virtual Environment in Visual Studio Code
