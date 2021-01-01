@@ -1,27 +1,32 @@
 # 3-Legged-OAuth-WorkFlow
-
+In order to most easily replicate this code, I recommend using Visual Studio Code as a code editor. If you have any questions, I will also then be able to answer them more easily.
 
 ## Step 1: Create a Virtual Environment
 Creating a Virtual Environment in Visual Studio Code
 Lets say that the name of the virtual environment that you want to create is:
-	herzlbot-env
+		
+		herzlbot-env
 
-    1. Create the virtual environment by opening the folder where you want the virtual environment in the terminal. 
-       Execute the following code:
+1. Create the virtual environment by opening the folder where you want the virtual environment in the terminal. 
+   Execute the following code:
+		
 		python3 -m venv herzlbot-env
 
-    2. Now it is time to install packages.
-       Update the terminal with this code to make sure you are working in the context of the virtual environment:
+2. Now it is time to install packages.
+   Update the terminal with this code to make sure you are working in the context of the virtual environment:
+		
 		source herzlbot-env/bin/activate
 
-   3. Make sure that the interpreter is updated to the virtual environment.
+3. Make sure that the interpreter is updated to the virtual environment.
    
-   4. Make sure to update pip as well, using the command:
+4. Make sure to update pip as well, using the command:
+		
 		pip install --upgrade pip
 
 
 ## Step 2: Install the Packages in the Virtual Environment
 Run this command in the terminal in the virtual environment:
+		
 		pip install -r requirements.txt
 
 
