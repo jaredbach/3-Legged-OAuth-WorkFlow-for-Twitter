@@ -32,9 +32,11 @@ Run this command in the terminal in the virtual environment:
 
 ## Step 3: Run the Authentication File
 The authentication file only needs to be run once.
-Follow the command prompt.
+
+Follow the command prompt. When prompted, you will authenticate your application and confirm the permissions on your Twitter account. Make sure you are signed into the Twitter account that you want your bot to be before running this code. After you authorize your app in the browser, you are going to then copy and paste the URL in your browser into your terminal.
+
 This file when run will store all the needed tokens in the confg.yaml file.
-Variables can be pulled from this file by calling these functions:
+Variables can then be pulled from this file by calling these functions:
 
 		from authentication import process_yaml, app_key, app_secret, oauth_token, oauth_token_secret
 
